@@ -46,7 +46,7 @@ Masukkan nama buku (ketik 'selesai' untuk mengakhiri): selesai
 ```
 
 ## keluaran 
-
+```
 ===============================
 Struk Pembelian Buku - Toko Buku Python
 ===============================
@@ -63,3 +63,4 @@ Subtotal: Rp. 130000.0
 Total Harga: Rp. 277000.0
 ===============================
 Terima kasih telah berbelanja di Toko Buku Python!
+```
