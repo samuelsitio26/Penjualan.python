@@ -1,0 +1,20 @@
+#Inisialisasi repositori lokal
+git init
+
+#Menambahkan file hello_world.py
+git add hello_world.py
+
+#Membuat commit dengan pesan
+git commit -m "Add hello_world.py"
+
+#Menambahkan file penjualan.py
+git add penjualan.py
+
+#Membuat commit dengan pesan
+git commit -m "Add penjualan.py"
+
+#Menghubungkan repositori lokal dengan repositori GitHub
+git remote add origin <URL_GITHUB_REPOSITORY>
+
+#Mengunggah kode ke branch main
+git push -u origin main

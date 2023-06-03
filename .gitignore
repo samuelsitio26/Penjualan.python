@@ -1,37 +1,20 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
+# File biasa
+*.pyc
+*.pyo
+*.pyd
 
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
+# Virtual environment
+venv/
+env/
+Lib/
+Include/
 
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
+# File build
+build/
+dist/
+*.egg-info/
+*.egg
 
-# OS generated files #
-######################
+# File sistem
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db

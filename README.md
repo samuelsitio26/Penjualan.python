@@ -1,75 +1,65 @@
-<header>
+# Program Hello, World!
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+Ini adalah contoh sederhana dari program "Hello, World!" yang ditulis dalam bahasa Python.
 
-# Introduction to GitHub
+## Deskripsi
 
-_Get started using GitHub in less than an hour._
+Program ini mencetak pesan "Hello, World!" ke konsol.
 
-</header>
+## Cara Menjalankan
 
-<!--
-  <<< Author notes: Step 1 >>>
-  Choose 3-5 steps for your course.
-  The first step is always the hardest, so pick something easy!
-  Link to docs.github.com for further explanations.
-  Encourage users to open new tabs for steps!
--->
+1. Pastikan Anda memiliki Python terinstal di sistem Anda.
+2. Buka terminal atau command prompt.
+3. Navigasikan ke direktori tempat Anda menyimpan file `hello_world.py`.
+4. Jalankan program dengan perintah berikut:
 
-## Step 1: Create a branch
+    ```shell
+    python hello_world.py
+    ```
 
-_Welcome to "Introduction to GitHub"! :wave:_
+5. Anda akan melihat output "Hello, World!" di terminal.
 
-**What is GitHub?**: GitHub is a collaboration platform that uses _[Git](https://docs.github.com/get-started/quickstart/github-glossary#git)_ for versioning. GitHub is a popular place to share and contribute to [open-source](https://docs.github.com/get-started/quickstart/github-glossary#open-source) software.
-<br>:tv: [Video: What is GitHub?](https://www.youtube.com/watch?v=pBy1zgt0XPc)
+# Penjualan Buku di Toko
 
-**What is a repository?**: A _[repository](https://docs.github.com/get-started/quickstart/github-glossary#repository)_ is a project containing files and folders. A repository tracks versions of files and folders. For more information, see "[About repositories](https://docs.github.com/en/repositories/creating-and-managing-repositories/about-repositories)" from GitHub Docs.
+Ini adalah program sederhana untuk mencatat dan menghitung total harga pembelian buku di toko. Program ini ditulis menggunakan bahasa pemrograman Python.
 
-**What is a branch?**: A _[branch](https://docs.github.com/en/get-started/quickstart/github-glossary#branch)_ is a parallel version of your repository. By default, your repository has one branch named `main` and it is considered to be the definitive branch. Creating additional branches allows you to copy the `main` branch of your repository and safely make any changes without disrupting the main project. Many people use branches to work on specific features without affecting any other parts of the project.
+## Cara Penggunaan
 
-Branches allow you to separate your work from the `main` branch. In other words, everyone's work is safe while you contribute. For more information, see "[About branches](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches)".
+1. Jalankan program dengan menjalankan script `penjualan.py`.
+2. Anda akan diminta memasukkan nama buku, harga buku, dan jumlah buku yang dibeli.
+3. Ketikkan "selesai" pada nama buku untuk mengakhiri input dan melihat struk pembelian.
+4. Program akan menghitung total harga dan mencetak struk pembelian berdasarkan input yang diberikan.
+5. Terima kasih atas pembelian Anda di Toko Buku Python!
 
-**What is a profile README?**: A _[profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)_ is essentially an "About me" section on your GitHub profile where you can share information about yourself with the community on GitHub.com. GitHub shows your profile README at the top of your profile page. For more information, see "[Managing your profile README](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme)".
+## Contoh Masukan
 
-![profile-readme-example](/images/profile-readme-example.png)
+Berikut adalah contoh masukan yang dapat Anda gunakan saat menjalankan program:
 
-### :keyboard: Activity: Your first branch
+```
+Masukkan nama buku (ketik 'selesai' untuk mengakhiri): Python for Beginners
+Masukkan harga buku: 49000
+Masukkan jumlah buku yang dibeli: 3
+Masukkan nama buku (ketik 'selesai' untuk mengakhiri): Advanced Python Programming
+Masukkan harga buku: 65000
+Masukkan jumlah buku yang dibeli: 2
+Masukkan nama buku (ketik 'selesai' untuk mengakhiri): selesai
+```
 
-1. Open a new browser tab and navigate to your newly made repository. Then, work on the steps in your second tab while you read the instructions in this tab.
-2. Navigate to the **< > Code** tab in the header menu of your repository.
+## keluaran 
 
-   ![code-tab](/images/code-tab.png)
-
-3. Click on the **main** branch drop-down.
-
-   ![main-branch-dropdown](/images/main-branch-dropdown.png)
-
-4. In the field, enter a name for your branch: `my-first-branch`.
-5. Click **Create branch: my-first-branch** to create your branch.
-
-   ![create-branch-button](/images/create-branch-button.png)
-
-   The branch will automatically switch to the one you have just created.
-   The **main** branch drop-down bar will reflect your new branch and display the new branch name.
-
-6. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/skills/.github/discussions) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+===============================
+Struk Pembelian Buku - Toko Buku Python
+===============================
+Nama Buku: Python for Beginners
+Harga Satuan: Rp. 49000.0
+Jumlah Beli: 3
+Subtotal: Rp. 147000.0
+===============================
+Nama Buku: Advanced Python Programming
+Harga Satuan: Rp. 65000.0
+Jumlah Beli: 2
+Subtotal: Rp. 130000.0
+===============================
+Total Harga: Rp. 277000.0
+===============================
+Terima kasih telah berbelanja di Toko Buku Python!
